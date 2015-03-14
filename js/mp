@@ -1,0 +1,64 @@
+/*$("#main").append("Mark S Powell.");
+var  awesomeThoughts = " I am Mark Powell and I'm awesome";
+var funThoughts =
+awesomeThoughts.replace ("awesome","FUN");
+$('#main').append(funThoughts); */
+
+
+
+/* this is the name and role.
+var name = "Mark S Powell";
+var role = "Senior Network Support";
+var formattedName = HTMLheaderName.replace ( "%data%" , name);
+var formattedRole = HTMLheaderRole.replace ( "%data%" , role);
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);*/
+
+// this is using objects and arrays to do the abouve
+
+var skills =
+	["troubleshooting", "running" ];
+
+var bio ={
+	"name" : "Mark S Powell",
+	"role" : "SR Specialist Support",
+	"contacts" : {
+		"mobile" :"706-476-6300",
+		"email" :"mark_powell@bellsouth.net",
+		"github": "PapppyPowell",
+		"twitter": "XXXXXXX",
+		"location" : "Montcello, GA"
+	},
+	"biopic" : "image/me.jpg",
+	"welcomeMessage": "Have a nice day",
+	"skills" : skills,
+};
+
+var formattedName = HTMLheaderName.replace ( "%data%" , bio.name);
+var formattedRole = HTMLheaderRole.replace ( "%data%" , bio.role);
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
+$("#header").append(bio.contacts);
+$("#header").append(bio.welcomeMessage);
+$("#header").append(bio.skills);
+
+
+var work ={
+	"wstart": "",
+	
+}
+
+
+var HTMLworkStart 
+var HTMLworkEmployer
+var HTMLworkTitle 
+var HTMLworkDates 
+var HTMLworkLocation 
+var HTMLworkDescription 
+
+var HTMLschoolStart
+var HTMLschoolName 
+var HTMLschoolDegree 
+var HTMLschoolDates 
+var HTMLschoolLocation 
+var HTMLschoolMajor 
